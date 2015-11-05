@@ -92,6 +92,7 @@ xCXXFLAGS=-pthread -Wall -Wextra -Wno-sign-compare -Wno-invalid-offsetof -Wno-un
 OBJS= \
     obj/version.o \
     obj/checkpoints.o \
+    obj/badblocks.o \
     obj/netbase.o \
     obj/addrman.o \
     obj/crypter.o \
